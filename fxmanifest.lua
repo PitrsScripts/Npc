@@ -8,3 +8,7 @@ client_scripts {
    -- 'config.lua' 
 }
 
+
+dependencies {
+    'es_extended',
+}
