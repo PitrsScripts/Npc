@@ -1,8 +1,8 @@
 CreateThread(function()
     local Peds = {
-       -- { coords = { x = -110.8145, y = 6470.0117, z = 31.6341 }, heading = , modelHash = , animationDict = "", animationName = "" },
-       -- { coords = {  }, heading = , modelHash = , animationDict = "", animationName = "" },
-       -- { coords = {  }, heading = , modelHash = , animationDict = "", animationName = "" },
+       -- { coords = { x = , y = , z = }, heading = , modelHash = , animationDict = "", animationName = "" },
+       -- { coords = { x = , y = , z   }, heading = , modelHash = , animationDict = "", animationName = "" },
+       -- { coords = { x = , y = , z   }, heading = , modelHash = , animationDict = "", animationName = "" },
             
 
     }
