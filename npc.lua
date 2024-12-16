@@ -26,11 +26,11 @@ function addNPC(x, y, z, heading, modelHash, animationDict, animationName)
     SetBlockingOfNonTemporaryEvents(ped, true)
 
 
-    RequestAnimDict(animationDict)
-    while not HasAnimDictLoaded(animationDict) do
-        Wait(15)
+    if animationDict ~= nil and animationDict ~= "" and animationName ~= nil and animationName ~= "" then
+        RequestAnimDict(animationDict)
+        while not HasAnimDictLoaded(animationDict) do
+            Wait(15)
+        end
+        TaskPlayAnim(ped, animationDict, animationName, 8.0, -8.0, -1, 49, 0, false, false, false)
     end
-
-
-    TaskPlayAnim(ped, animationDict, animationName, 8.0, -8.0, -1, 49, 0, false, false, false)
 end
